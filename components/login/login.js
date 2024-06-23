@@ -37,11 +37,7 @@ const Login = ({navigation, route}) => {
                 <Text style={styles.title}>
                     Добро пожаловать в ImpactAD!
                 </Text>
-                <TouchableOpacity style={styles.miniButton}>
-                    <Text style={styles.miniButtonText}>
-                        Что это ?
-                    </Text>
-                </TouchableOpacity>
+            
                 <View style={styles.inputWrapper}>
                     <Text style={styles.inputText}>
                         Почта
