@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
     },
     loginWrapper: {
         width: '90%',
-        height: 500,
+        height: 450,
         marginTop: 200,
         alignSelf: "center",
         backgroundColor: '#fff',
