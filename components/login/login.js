@@ -7,8 +7,8 @@ import {FIREBASE_AUTH} from "../../FirebaseConfig";
 import Fontisto from '@expo/vector-icons/Fontisto';
 import Spinner from "react-native-loading-spinner-overlay";
 const Login = ({navigation, route}) => {
-    const [user, setUser] = useState('karim@gmail.com')
-    const [pass, setPass] = useState('12345678')
+    const [user, setUser] = useState('')
+    const [pass, setPass] = useState('')
     const [show, setShow] = useState(false)
     const [loading, setLoading] = useState(false)
     const auth = FIREBASE_AUTH
